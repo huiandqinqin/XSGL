@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="likeNan">
+        <item>打球</item>
+        <item>下棋</item>
+        <item>武术</item>
+    </string-array>
+</resources>

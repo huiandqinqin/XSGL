@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    tools:context="com.example.user.czj_ex1.fragment.AddInfoFragment">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="学号："
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <EditText
+                android:layout_width="400dp"
+                android:textSize="30dp"
+                android:lines="1"
+                android:background="@drawable/et"
+                android:id="@+id/edit_add_no"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="姓名："
+                android:textSize="30dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="400dp"
+                android:id="@+id/edit_add_name"
+                android:background="@drawable/et"
+                android:textSize="30dp"
+                android:lines="1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="性别："
+                android:textSize="30dp"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_width="400dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="男"
+                    android:layout_weight="1"
+                    android:id="@+id/radio_add_b"
+                    android:textSize="30dp"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:text="女"
+                    android:layout_weight="1"
+                    android:id="@+id/radio_add_g"
+                    android:textSize="30dp"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="230dp"
+                android:text="爱好："
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:text="请选择爱好"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tvChoose"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:text="添加"
+            android:id="@+id/btn_add_do"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

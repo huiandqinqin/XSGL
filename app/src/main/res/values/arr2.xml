@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="likeNv">
+        <item>听歌</item>
+        <item>购物</item>
+        <item>舞蹈</item>
+    </string-array>
+</resources>
